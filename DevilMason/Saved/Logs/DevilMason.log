@@ -605,3 +605,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.21-05.28.13:557][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2020.04.21-05.31.06:673][436]LogSlate: Took 0.000787 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
 [2020.04.21-05.31.27:481][105]LogSlate: Window 'Save Level As' being destroyed
+[2020.04.21-05.38.04:711][564]LogSlate: Took 0.000888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.21-05.38.13:829][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.04.21-05.38.13:833][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="D:/UnrealGame/DevilMason/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.04.21-05.38.13:872][591]LogSavePackage: Moving 'D:/UnrealGame/DevilMason/Saved/Untitled_1_Auto147A69113444BBB1EF7AB58B300E126BC.tmp' to 'D:/UnrealGame/DevilMason/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2020.04.21-05.38.13:896][591]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.093
+[2020.04.21-05.38.13:896][591]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.093
