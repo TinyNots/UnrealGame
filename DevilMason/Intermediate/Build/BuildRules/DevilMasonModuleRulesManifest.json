@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UnrealGame\\DevilMason\\Source\\DevilMason\\DevilMason.Build.cs",
+		"D:\\UnrealGame\\DevilMason\\Source\\DevilMason.Target.cs",
+		"D:\\UnrealGame\\DevilMason\\Source\\DevilMasonEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

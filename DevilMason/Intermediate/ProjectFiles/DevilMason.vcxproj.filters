@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DevilMason.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5ABE4075-7C6B-4448-B716-C693147EABF1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DevilMason.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DevilMasonEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{161788E4-C00D-4970-8E42-2B7AD6F1B75C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DevilMason">
+      <UniqueIdentifier>{EFC49576-25AF-4CDC-9140-CB6AC00516E3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DevilMason\DevilMason.Build.cs">
+      <Filter>Source\DevilMason</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DevilMason\DevilMason.cpp">
+      <Filter>Source\DevilMason</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DevilMason\DevilMason.h">
+      <Filter>Source\DevilMason</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DevilMason\DevilMasonGameModeBase.cpp">
+      <Filter>Source\DevilMason</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DevilMason\DevilMasonGameModeBase.h">
+      <Filter>Source\DevilMason</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

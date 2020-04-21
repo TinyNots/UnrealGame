@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DevilMason.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UnrealGame\DevilMason\Intermediate\Build\Win64\DevilMasonEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\UnrealGame\DevilMason\Intermediate\Build\Win64\UE4Editor\Development\DevilMason\DevilMason.cpp.obj"
+"D:\UnrealGame\DevilMason\Intermediate\Build\Win64\UE4Editor\Development\DevilMason\DevilMasonGameModeBase.cpp.obj"
+"D:\UnrealGame\DevilMason\Intermediate\Build\Win64\UE4Editor\Development\DevilMason\DevilMason.init.gen.cpp.obj"
+"D:\UnrealGame\DevilMason\Intermediate\Build\Win64\UE4Editor\Development\DevilMason\DevilMasonGameModeBase.gen.cpp.obj"
+"D:\UnrealGame\DevilMason\Intermediate\Build\Win64\UE4Editor\Development\DevilMason\Default.rc2.res"
+/OUT:"D:\UnrealGame\DevilMason\Intermediate\Build\Win64\UE4Editor\Development\DevilMason\UE4Editor-DevilMason.lib"
+/INCLUDE:IMPLEMENT_MODULE_DevilMason

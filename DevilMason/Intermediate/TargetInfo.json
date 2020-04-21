@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DevilMason",
+			"Path": "D:\\UnrealGame\\DevilMason\\Source\\DevilMason.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DevilMasonEditor",
+			"Path": "D:\\UnrealGame\\DevilMason\\Source\\DevilMasonEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
