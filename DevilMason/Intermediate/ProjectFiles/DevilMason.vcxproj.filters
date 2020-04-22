@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DevilMason.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5ABE4075-7C6B-4448-B716-C693147EABF1}</UniqueIdentifier>
+      <UniqueIdentifier>{B5F9131F-B212-4CDA-8E29-9C8D4136E49E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DevilMason.Target.cs">
       <Filter>Source</Filter>
@@ -12,9 +12,12 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{161788E4-C00D-4970-8E42-2B7AD6F1B75C}</UniqueIdentifier>
+      <UniqueIdentifier>{00FF5E63-9DDF-46F1-99C4-407C61E38E50}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -24,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DevilMason">
-      <UniqueIdentifier>{EFC49576-25AF-4CDC-9140-CB6AC00516E3}</UniqueIdentifier>
+      <UniqueIdentifier>{F5126FFE-D0E1-483B-B5A3-5A4A6B433884}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\DevilMason\ActorTesting.cpp">
+      <Filter>Source\DevilMason</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DevilMason\ActorTesting.h">
+      <Filter>Source\DevilMason</Filter>
+    </ClInclude>
     <None Include="..\..\Source\DevilMason\DevilMason.Build.cs">
       <Filter>Source\DevilMason</Filter>
     </None>
@@ -41,5 +50,21 @@
     <ClInclude Include="..\..\Source\DevilMason\DevilMasonGameModeBase.h">
       <Filter>Source\DevilMason</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\DevilMason\PlayerTest.h">
+      <Filter>Source\DevilMason</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DevilMason\MouseControl.h">
+      <Filter>Source\DevilMason</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\DevilMason\PlayerTest.cpp">
+      <Filter>Source\DevilMason</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DevilMason\MouseControl.cpp">
+      <Filter>Source\DevilMason</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
