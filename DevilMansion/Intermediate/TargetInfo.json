@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DevilMansion",
+			"Path": "C:\\Users\\81805\\Desktop\\UnrealGame\\DevilMansion\\Source\\DevilMansion.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DevilMansionEditor",
+			"Path": "C:\\Users\\81805\\Desktop\\UnrealGame\\DevilMansion\\Source\\DevilMansionEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

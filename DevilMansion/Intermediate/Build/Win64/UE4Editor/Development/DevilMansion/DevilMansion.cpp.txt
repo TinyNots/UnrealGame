@@ -1,0 +1,2 @@
+C:\Users\81805\Desktop\UnrealGame\DevilMansion\Intermediate\Build\Win64\UE4Editor\Development\DevilMansion\Definitions.DevilMansion.h
+c:\users\81805\desktop\unrealgame\devilmansion\source\devilmansion\DevilMansion.h

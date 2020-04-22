@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DevilMansion.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7E3329BD-4754-49B2-A869-C86194F58624}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DevilMansion.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DevilMansionEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{45E43AF4-6857-462F-8885-42F1174C2AB5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DevilMansion">
+      <UniqueIdentifier>{433FFD41-F571-4FD4-AD30-34F5060F1B93}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DevilMansion\DevilMansion.Build.cs">
+      <Filter>Source\DevilMansion</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DevilMansion\DevilMansion.cpp">
+      <Filter>Source\DevilMansion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DevilMansion\DevilMansion.h">
+      <Filter>Source\DevilMansion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DevilMansion\DevilMansionGameModeBase.cpp">
+      <Filter>Source\DevilMansion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DevilMansion\DevilMansionGameModeBase.h">
+      <Filter>Source\DevilMansion</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
