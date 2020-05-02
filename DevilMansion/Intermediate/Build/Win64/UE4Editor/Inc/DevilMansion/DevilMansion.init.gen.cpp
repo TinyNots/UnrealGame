@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeDevilMansion_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x94376B43,
-				0x97C386E5,
+				0x4099AD45,
+				0x6D491EC7,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

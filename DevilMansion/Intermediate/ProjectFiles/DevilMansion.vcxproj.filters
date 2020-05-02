@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DevilMansion.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7E3329BD-4754-49B2-A869-C86194F58624}</UniqueIdentifier>
+      <UniqueIdentifier>{C27CE2A9-0D29-4AC6-A073-EB7A338F3E02}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DevilMansion.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{45E43AF4-6857-462F-8885-42F1174C2AB5}</UniqueIdentifier>
+      <UniqueIdentifier>{06E55193-AAF9-489B-A6BD-E39FE1EEDBAA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\DevilMansion">
-      <UniqueIdentifier>{433FFD41-F571-4FD4-AD30-34F5060F1B93}</UniqueIdentifier>
+      <UniqueIdentifier>{58EB6BC0-A5D0-4FFB-863A-272486712872}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DevilMansion\DevilMansion.Build.cs">
       <Filter>Source\DevilMansion</Filter>
@@ -39,6 +42,18 @@
       <Filter>Source\DevilMansion</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DevilMansion\DevilMansionGameModeBase.h">
+      <Filter>Source\DevilMansion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DevilMansion\MouseControl.cpp">
+      <Filter>Source\DevilMansion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DevilMansion\MouseControl.h">
+      <Filter>Source\DevilMansion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DevilMansion\MyPlayer.cpp">
+      <Filter>Source\DevilMansion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DevilMansion\MyPlayer.h">
       <Filter>Source\DevilMansion</Filter>
     </ClInclude>
   </ItemGroup>

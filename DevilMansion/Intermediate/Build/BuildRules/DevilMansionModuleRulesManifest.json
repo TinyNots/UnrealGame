@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\81805\\Desktop\\UnrealGame\\DevilMansion\\Source\\DevilMansion\\DevilMansion.Build.cs",
-		"C:\\Users\\81805\\Desktop\\UnrealGame\\DevilMansion\\Source\\DevilMansion.Target.cs",
-		"C:\\Users\\81805\\Desktop\\UnrealGame\\DevilMansion\\Source\\DevilMansionEditor.Target.cs"
+		"D:\\UEProject\\DevilM\\DevilMansion\\Source\\DevilMansion\\DevilMansion.Build.cs",
+		"D:\\UEProject\\DevilM\\DevilMansion\\Source\\DevilMansion.Target.cs",
+		"D:\\UEProject\\DevilM\\DevilMansion\\Source\\DevilMansionEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }
