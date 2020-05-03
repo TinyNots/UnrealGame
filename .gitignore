@@ -44,7 +44,7 @@
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
-Content/
+External Resources/
 
 # Binary Files
 Binaries/*
@@ -73,3 +73,11 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+DevilMansion/Saved/Logs/DevilMansion.log
+
+DevilMansion/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+
+DevilMansion/Saved/AutoScreenshot.png
+
+DevilMansion/Intermediate/CachedAssetRegistry.bin

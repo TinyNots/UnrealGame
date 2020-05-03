@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DevilMansion.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C27CE2A9-0D29-4AC6-A073-EB7A338F3E02}</UniqueIdentifier>
+      <UniqueIdentifier>{60C055A9-A747-464B-9285-3BE04524B89F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DevilMansion.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{06E55193-AAF9-489B-A6BD-E39FE1EEDBAA}</UniqueIdentifier>
+      <UniqueIdentifier>{95325F87-8C5C-40E0-8099-A35137843328}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DevilMansion">
-      <UniqueIdentifier>{58EB6BC0-A5D0-4FFB-863A-272486712872}</UniqueIdentifier>
+      <UniqueIdentifier>{68247EA3-494B-4EDD-BE4C-F7FD34D83A1F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DevilMansion\DevilMansion.Build.cs">
       <Filter>Source\DevilMansion</Filter>
