@@ -1,17 +1,25 @@
-﻿C:\Users\Chew\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml(4): warning : The element 'BuildConfiguration' in namespace 'https://www.unrealengine.com/BuildConfiguration' has invalid child element 'ProcessorCountMultiplier' in namespace 'https://www.unrealengine.com/BuildConfiguration'. List of possible elements expected: 'bShowXGEMonitor, bAdaptiveUnityEnablesEditAndContinue, bAllowDistccLocalFallback, bCheckSystemHeadersForModification, bAllowDistcc, bUseUnityBuild, bAllowASLRInShipping, bStressTestUnity, bUseMallocProfiler, bForcePrecompiledHeaderForGameModules, bUseFastMonoCalls, bPrintDebugInfo, BaseLogFileName, bPublicSymbolsByDefault, bDebugBuildsActuallyUseDebugCRT, bUseInlining, bUseFastPDBLinking, bUsePDBFiles, bDisableDebugInfo, bAllowSNDBS, bForceUnityBuild, bEnableThreadSanitizer, DMUCSCoordinator, bCheckLicenseViolations, bEnableAddressSanitizer, bBreakBuildOnLicenseViolation, bEnableUndefinedBehaviorSanitizer, bUseFastSemanticsRenderContexts, DMUCSDistProp, bUseIncrementalLinking, bGeneratedSYMFile, bAdaptiveUnityDisablesPCH, bStripSymbols, bUseSharedPCHs, bDisableDebugInfoForGeneratedCode, bStopXGECompilationAfterErrors, bAdaptiveUnityDisablesOptimizations, bLogDetailedActionStats, bParseTimingInfoForTracing, bWriteSolutionOptionFile, CppStandard, bAllowParallelExecutor, bPrintToolChainTimingInfo, bAllowXGE,....
+﻿C:\Users\Chew\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml(4): warning : The element 'BuildConfiguration' in namespace 'https://www.unrealengine.com/BuildConfiguration' has invalid child element 'ProcessorCountMultiplier' in namespace 'https://www.unrealengine.com/BuildConfiguration'. List of possible elements expected: 'bAllowDistcc, bAllowDistccLocalFallback, bAllowXGE, bAdaptiveUnityEnablesEditAndContinue, bIgnoreOutdatedImportLibraries, bCheckSystemHeadersForModification, bDisableDebugInfo, MinGameModuleSourceFilesForUnityBuild, bPrintDebugInfo, bAllowLTCG, bCreateMapFile, bAllowParallelExecutor, bAllowHybridExecutor, bVerboseDistccOutput, bUsePDBFiles, bStopXGECompilationAfterErrors, bSupportEditAndContinue, bForceUnityBuild, bAllowSNDBS, bShowXGEMonitor, bStressTestUnity, bXGENoWatchdogThread, bUseShippingPhysXLibraries, bForcePrecompiledHeaderForGameModules, BaseLogFileName, bEditorDependsOnShaderCompileWorker, bUseFastPDBLinking, bOmitFramePointers, bOmitPCDebugInfoInDevelopment, bUseDebugLiveCodingConsole, bUseInlining, bAdaptiveUnityDisablesOptimizations, bUseFastMonoCalls, bPGOOptimize, DistccExecutablesPath, bAdaptiveUnityCreatesDedicatedPCH, bWriteSolutionOptionFile, bUseFastSemanticsRenderContexts, bAllowRuntimeSymbolFiles, bFlushBuildDirOnRemoteMac, bEnableAddressSanitizer, bEnableUndefinedBehaviorSanitizer....
   Using 'git status' to determine working set for adaptive non-unity build (D:\UEProject\DevilM).
+  Creating makefile for DevilMansionEditor (no existing makefile)
   Parsing headers for DevilMansionEditor
     Running UnrealHeaderTool "D:\UEProject\DevilM\DevilMansion\DevilMansion.uproject" "D:\UEProject\DevilM\DevilMansion\Intermediate\Build\Win64\DevilMansionEditor\Development\DevilMansionEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for DevilMansionEditor in 15.4039698 seconds
+  Reflection code generated for DevilMansionEditor in 35.4563394 seconds
   Building DevilMansionEditor...
   Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 4 processes...
-    [1/5] MyPlayer.gen.cpp
-    [2/5] MyPlayer.cpp
-    [3/5] UE4Editor-DevilMansion.lib
-       Creating library D:\UEProject\DevilM\DevilMansion\Intermediate\Build\Win64\UE4Editor\Development\DevilMansion\UE4Editor-DevilMansion.lib and object D:\UEProject\DevilM\DevilMansion\Intermediate\Build\Win64\UE4Editor\Development\DevilMansion\UE4Editor-DevilMansion.exp
-    [4/5] UE4Editor-DevilMansion.dll
-       Creating library D:\UEProject\DevilM\DevilMansion\Intermediate\Build\Win64\UE4Editor\Development\DevilMansion\UE4Editor-DevilMansion.suppressed.lib and object D:\UEProject\DevilM\DevilMansion\Intermediate\Build\Win64\UE4Editor\Development\DevilMansion\UE4Editor-DevilMansion.suppressed.exp
-    [5/5] DevilMansionEditor.target
-  Total time in Parallel executor: 151.34 seconds
-  Total execution time: 168.28 seconds
+  Building 12 actions with 4 processes...
+    [1/12] SharedPCH.Engine.ShadowErrors.cpp
+    [2/12] DevilMansion.init.gen.cpp
+    [3/12] DevilMansionGameModeBase.cpp
+    [4/12] MouseControl.cpp
+    [5/12] MyPlayer.cpp
+    [6/12] DevilMansion.cpp
+    [7/12] MouseControl.gen.cpp
+    [8/12] MyPlayer.gen.cpp
+    [9/12] DevilMansionGameModeBase.gen.cpp
+    [10/12] UE4Editor-DevilMansion-0002.lib
+       Creating library D:\UEProject\DevilM\DevilMansion\Intermediate\Build\Win64\UE4Editor\Development\DevilMansion\UE4Editor-DevilMansion-0002.lib and object D:\UEProject\DevilM\DevilMansion\Intermediate\Build\Win64\UE4Editor\Development\DevilMansion\UE4Editor-DevilMansion-0002.exp
+    [11/12] UE4Editor-DevilMansion-0002.dll
+       Creating library D:\UEProject\DevilM\DevilMansion\Intermediate\Build\Win64\UE4Editor\Development\DevilMansion\UE4Editor-DevilMansion-0002.suppressed.lib and object D:\UEProject\DevilM\DevilMansion\Intermediate\Build\Win64\UE4Editor\Development\DevilMansion\UE4Editor-DevilMansion-0002.suppressed.exp
+    [12/12] DevilMansionEditor.target
+  Total time in Parallel executor: 400.30 seconds
+  Total execution time: 445.05 seconds

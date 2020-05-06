@@ -45,6 +45,7 @@
 SourceArt/**/*.png
 SourceArt/**/*.tga
 External Resources/
+Fantasy_Dungeon/
 
 # Binary Files
 Binaries/*

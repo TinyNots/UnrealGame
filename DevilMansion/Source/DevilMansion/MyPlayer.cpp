@@ -57,7 +57,7 @@ void AMyPlayer::MoveX(float value)
 
 	//FVector diff = char_pos - FVector(mouse_pos.X, mouse_pos.Y, char_pos.Z);
 	//FVector force = diff * MovementSpeed * value;
-	FVector force = FVector(1,0,0) * value * MovementSpeed;
+	FVector force = FVector(0,1,0) * value * MovementSpeed;
 	VisualMesh->AddForce(force);
 }
 
@@ -69,7 +69,7 @@ void AMyPlayer::MoveY(float value)
 
 	//FVector diff = char_pos - FVector(mouse_pos.X, mouse_pos.Y, char_pos.Z);
 	//FVector force = diff * MovementSpeed * value;
-	FVector force = FVector(0, 1, 0) * value * MovementSpeed;
+	FVector force = FVector(1, 0, 0) * value * MovementSpeed;
 	VisualMesh->AddForce(force);
 }
 
