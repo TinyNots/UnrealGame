@@ -7,6 +7,7 @@
 #include "Camera/CameraComponent.h"
 #include "Engine/Engine.h"
 #include "Engine/World.h"
+#include ÅgGameFramework/PlayerController.hÅh
 #include "Components/InputComponent.h"
 
 // Sets default values
@@ -37,7 +38,7 @@ void AMyPlayer::BeginPlay()
 void AMyPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	
 }
 
 // Called to bind functionality to input
